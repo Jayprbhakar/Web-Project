@@ -1,0 +1,160 @@
+/* Style of Contact Us Page */
+
+
+.M1-row {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.M1-row p {
+    font-size: 20px;
+}
+
+.M1-row p a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#Comp1 {
+    color: black;
+    background-color: #98b39a;
+    font-size: 20px;
+    width: 40%;
+    padding-left: 2%;
+    border: 2px;
+    background-color: rgb(212, 220, 188);
+    border-style: solid;
+    border-color: 212, 220, 188;
+}
+
+h2 {
+    text-align: center;
+    text-underline-position: above;
+}
+
+#Comp2 {
+    color: black;
+    background-color: #98b39a;
+    font-size: 20px;
+    width: 40%;
+    padding-left: 2%;
+    border: 2px;
+    background-color: rgb(212, 220, 188);
+    border-style: solid;
+    border-color: 212, 220, 188;
+    padding-bottom: 3%;
+}
+
+.Main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* submit btn */
+
+input[type="submit"]  {
+    border:2px solid #0000ff;
+    border-radius: 1px;
+    font-size: 16px;
+    padding: 8px 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0000ff;
+    cursor: pointer;
+    color: white;
+}
+
+input[type="Fsn"] {
+    width: 60%;
+    height: 20%;
+}
+
+input[type="lsn"] {
+    width: 60%;
+    height: 20%;
+}
+
+/* Label */
+
+label {
+    color: black;
+    margin-top: 2%;
+}
+
+
+/* Position */
+/* 1st row */
+.lb1-main {
+    display: flex;
+    gap: 20px;
+
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group input {
+    padding: 12px;
+    font-size: 16px;
+    width: 100%; /* make input fill its container */
+    box-sizing: border-box;
+}
+
+/* 2nd row */
+
+.lb2-main {
+    display: flex;
+    gap: 38px;
+}
+
+.form1-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form1-group input {
+    padding: 4px;
+    font-size: 16px;
+    width: 100%; 
+    /* box-sizing: border-box;*/
+}
+
+/* 3rd row */
+
+.lb3-main {
+    display: flex;
+    gap: 58px;
+}
+
+.form3-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    width: 77%;
+}
+
+.form3-group input {
+    padding: 7px;
+    box-sizing: border-box;
+    /* width: 100%; */
+}
+
+/* 4th row */
+
+.form4-main {
+    display: flex;
+    margin-top: 2%;
+    flex-direction: column;
+}
+
+.form4-main textarea {
+    box-sizing: border-box;
+    width: 80%;
+    height: 70%;
+}
