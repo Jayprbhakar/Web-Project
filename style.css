@@ -1,0 +1,148 @@
+* Tabs Style */
+.wpb-js-composer .vc_tta.vc_general.vc_tta-style-classic.vc_tta-tabs .vc_tta-tab > a {
+  display: block;
+  padding: 5%;
+  font-size: 18px;
+  background-color: #9bc1cf;  /* Default background color */
+  color: #000000;  /* Inactive text color changed to black */
+  border: none;  /* Removed border for inactive tabs */
+  border-radius: 5px;
+  font-weight: var(--wd-title-font-weight);
+  font-style: var(--wd-title-font-style);
+  font-family: var(--wd-title-font);
+  line-height: 1.4;
+  opacity: 1;
+  transition: all 0.25s ease;
+  text-decoration: none !important;
+}
+
+/* On hover – maintain background, text color, and remove border */
+.wpb-js-composer .vc_tta.vc_general.vc_tta-style-classic.vc_tta-tabs .vc_tta-tab > a:hover,
+.wpb-js-composer .vc_tta.vc_general.vc_tta-style-classic.vc_tta-tabs .vc_tta-tab > a:focus {
+  background-color: #9bc1cf !important; /* Keep default background color */
+  color: #000000 !important;  /* Keep text color black on hover */
+  border: none !important; /* Remove border on hover */
+  text-decoration: none !important;
+}
+
+
+
+
+/* === Sticky Left Tab Sidebar === */
+/* === Text Block Wrapper === */
+.text-blockf{
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  position: relative;
+}
+
+
+
+
+/* Prevent parent containers from clipping the sidebar */
+body,
+html,
+.vertical-tabs-wrapper {
+  overflow: visible;
+}
+
+
+
+
+/* Active tab style */
+.wpb-js-composer .vc_tta.vc_general.vc_tta-style-classic.vc_tta-tabs .vc_tta-tab.vc_active > a {
+  background-color: #9B162C !important;
+  color: #ffffff !important;
+  border: 2px solid #9B162C !important;
+}
+
+/* Active tab style */
+.wpb-js-composer .vc_tta.vc_general.vc_tta-style-classic.vc_tta-tabs .vc_tta-tab.vc_active > a {
+  background-color: #9B162C !important;
+  color: #ffffff !important;
+  border: 2px solid #9B162C !important;
+}
+
+
+/* Remove any underline or lines appearing under the tab text */
+.wpb-js-composer .vc_tta.vc_general.vc_tta-style-classic.vc_tta-tabs .vc_tta-tab .vc_tta-title-text::after {
+  content: none !important;
+  display: none !important;
+}
+
+
+/* Remove any unwanted border from the title text */
+.wpb-js-composer .vc_tta.vc_general.vc_tta-style-classic.vc_tta-tabs .vc_tta-tab .vc_tta-title-text {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+/* right sideborder after and before  */
+.vc_tta-tabs:not([class*=vc_tta-gap]):not(.vc_tta-o-no-fill).vc_tta-tabs-position-left .vc_tta-tab.vc_active>a::before {
+    display: block;
+    width: auto;
+    left: 100%;
+    bottom: 100%;
+    border-bottom: 0;
+    border-top: 0;
+    /* border-right: 0; */
+    border: none;
+}
+
+
+.vc_tta-tabs:not([class*=vc_tta-gap]):not(.vc_tta-o-no-fill).vc_tta-tabs-position-left .vc_tta-tab.vc_active>a::after {
+    display: block;
+    width: auto;
+    left: 100%;
+    top: 100%;
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 0;
+    border: none;
+}
+
+/* spacing */
+.vc_tta-tabs.vc_tta-tabs-position-left .vc_tta-panels-container {
+    display: flex
+;
+    flex-direction: column;
+    flex: 1;
+    min-width: 0;
+    margin-left: 1%;
+}
+
+/* Content border */
+.vc_tta-panels {
+    border: 5px solid black;
+}
+
+/* Z index for right more contents */
+
+element.style {
+    position: relative;
+}
+.vc_row.vc_row-flex>.vc_column_container>.vc_column-inner {
+    z-index: auto;
+}
+.vc_row.vc_row-flex>.vc_column_container>.vc_column-inner {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.vc_column_container>.vc_column-inner {
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+
+/* working */
+.vc_tta-tabs-container > .vc_tta-tab vc_active {
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}

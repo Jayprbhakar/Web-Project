@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+<body>
+    <div>
+        <section>Contact Us</section>
+    </div>
+
+    <div class="Main">
+        <div id="Comp1">
+            <h2 id="head1">Contact Us Here!</h2>
+            <div>
+                <div class="M1-row">
+                    <div>
+                        <img src="Uploads/call_50.png" alt="call" height="32px" width="32px">
+                    </div>
+                    <div>
+                        <p><a href="tel:9833213205">9833213205</a></p>
+                    </div>
+                </div>
+                <div class="M1-row">
+                    <div>
+                        <img src="Uploads/Mail.png" alt="call" height="30px" width="30px">
+                    </div>
+                    <div>
+                        <p><a href="mailto:Jay@gmail.com">Jay@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="M1-row">
+                    <div>
+                        <img src="Uploads/address.png" alt="call" height="30px" width="30px">
+                    </div>
+                    <div>
+                        <p>Address: Sanjay Nagar, Lalji Pada, Kandivali west</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Comp2">
+            <h2>Enquiry Here!</h2>
+            <form action="formData.php" method="post" target="_blank" autocomplete="on" novalidate enctype="text/plain">
+                <div class="lb1-main">
+                    <div class="form-group">
+                        <label for="First Name">First Name</label>
+                        <input type="Fsn" name="Fstname" id="First Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="Last Name">Last Name</label>
+                        <input type="lsn" name="Last Name" id="Last Name">
+                    </div>
+                </div>
+                <div class="lb2-main"> 
+                    <div class="form1-group">       
+                        <label for="Email Id">Email Id</label>
+                        <input type="email" name="Email" id="Email Id">
+                    </div>
+                    <div class="form1-group">    
+                        <label for="Phone No">Number</label>
+                        <input type="tel" name="Number" id="Phone No">
+                    </div>
+                </div>   
+                <div class="lb3-main">
+                    <div class="form3-group">
+                        <label for="Subject">Your Subject</label>
+                        <input type="text" name="Subject" id="Subject">
+                    </div>    
+                </div>
+                <div class="form4-main">
+                    <label for="Description">Description</label>
+                    <textarea name="Description" id="Description" rows="5" cols="5">
+                    </textarea>
+                </div>
+                <br>
+                <input type="submit" value="Submit" class="Sbtn">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
