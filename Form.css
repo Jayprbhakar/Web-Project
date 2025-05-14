@@ -158,3 +158,15 @@ label {
     width: 80%;
     height: 70%;
 }
+
+/* Mobile device */
+@media (max-width: 768px) {
+  .contact-form {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  input, textarea {
+    width: 100%;
+  }
+}
